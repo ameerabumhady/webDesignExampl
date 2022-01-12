@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    .map_contact{
+        width: 100%;
+        height: 700px;
+        margin-top:5px; 
+    }
+    .map{
+        width: 65%;
+        height: 650px;
+        border: 1px solid #DDD;
+        float: left;
+    }
+    .contact_form{
+        text-align: center;
+        
+    }
+    input{
+        width: 300px;
+        height: 30px;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: 1px solid rgb(170, 172, 173);
+        
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    textarea{
+        width: 300px;
+        border-radius:5px; 
+        border: 1px solid rgb(170, 172, 173);
+        
+    }
+    .submit{
+        margin-top: 15px;
+        background-color: aliceblue;
+        width: 180px;
+        height: 50px;
+        font-size: 17px;
+        color: rgb(61, 124, 124);
+        border: 2px solid rgb(170, 172, 173);
+    }
+    </style>
+</head>
+<body>
+<div>
+    <div class="phonemail"><!-- begin div contact information & select the langug-->
+        <span>Phone: <a href="">(+34) 931 297 947</a></span>
+        <span>Email: <a href="">info@kfwinkel.com</a></span>
+        <select name="" id="">
+            <option value="English">English</option>
+            <option value="Arabic">Arabic</option>
+        </select>
+    
+    </div><!-- end div contact information & select the langug-->
+    
+    <div class="header"><!--begin div logo & nav-->
+        <div class="logo">
+            <a href="Home.html"><img src="images/logo1.PNG" alt="" height="100px"></a> 
+        </div> 
+        <div class="nav"> <!-- begin div navbar -->
+            <ul>
+                <li><a href="">PROPERTIES SEARCH</a></li>
+                <li><a href="">SERVICES
+                    <ul>
+                        <li><a href="">ameer</a></li>
+                        <li><a href="">ameer</a></li>
+                        <li><a href="">ameer</a></li>
+                    </ul>
+                </a>
+                </li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="register.html">SIGN UP</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li class="serch1"><a href=""><img src="images/icon-search.png" width="40px" height="40px"></a></li>
+            </ul>
+        </div><!-- end div navbar -->
+    </div> <!--end div logo & nav-->
+    <hr style="border: 3px solid #DDD;">
+    <div class="map_contact">
+        <div class="map">
+            <iframe src="images/map-icon.jpg" width="100%" height="100%"> </iframe>
+        </div>
+        <div class="contact_form">
+            <h4>contact form</h4>
+            <hr style="width: 100px; margin-bottom: 1px;">
+            <hr style="width: 100px; margin-top: 1px;">
+            <pre>Feel free to contact us if you have questions
+                or need further information!           </pre>
+            <div class="forms">
+                <form action="" onsubmit="msg()">
+                    <input type="text" placeholder="Name">
+                    <br>
+                    <input type="email" placeholder="Email" required="required">
+                    <br>
+                    <input type="text" placeholder="Subject" required="required">
+                    <br>
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Message" required="required"></textarea>
+                    <br>
+                    <input class="submit" type="submit" value="&#x2709; Send Message">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="information"> <!-- begin div iformation --> 
+        <div class="desc">
+            <img src="images/logo1.png" alt="" width="300px" style="padding-top: 20px">
+            <p>
+                we are an innovatine company that provides real estate related services.
+                Due to our expertise in the filed and profound knowledge of the market 
+                we help our clients leverage their investment in real estat in Barcelona.
+            </p>
+        </div>
+        <div class="contact_info">
+            <h4>Contact Info</h4>
+            <section><img src="images/location.png" alt=""> <em> C/Comte d'Urgell 165, Barcelona</em></section>
+            <br>
+            <section><img src="images/phone.png" alt=""> <em><a href=""> (+972)0595114323</a></em></section>
+            <br>
+            <section><img src="images/mail.png" alt=""><em><a href=""> ameerabumhady@gmail.com</a></em> </section>
+        </div>
+        <div class="help_link">
+            <h4>Helpful Links</h4>
+            <hr>
+            <a href="">All Properties Available</a>
+            <hr>
+            <a href="">Barcelona Investment Opporatunities</a>
+            <hr>
+            <a href="">Our Services</a>
+            <hr>
+            <a href="">about us</a>
+        </div>
+        <div class="property_list">
+            <h4>Property Listings</h4>
+            <section class="sub_property">
+                <img src="images/pro1.png" alt=""><br>
+                <p>Properties for sale in Diagonal Mar</p>
+            </section>
+
+            <section class="sub_property">
+                <img src="images/pro2.png" alt=""><br>
+                <p>Properties for sale in Vila Olimpica</p>
+            </section>
+            
+            <section class="sub_property">
+                <img src="images/pro3.png" alt=""><br>
+                <p>Properties for sale in Ciutat Vella</p>
+            </section>
+        </div>
+    </div> <!-- end div iformation -->
+    <footer >
+       <address> &copy; 2018 by <a href="mailto:ameerabumhady@gmail.com">Ameer Abu Mhady</a></address>
+    </footer>
+</div>
+<script src="javascript.js"></script>
+</body>
+</html>

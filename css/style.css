@@ -1,0 +1,272 @@
+body{
+    margin: auto;
+}
+.main_div{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: rgb(61, 124, 124);
+}
+.phonemail {
+background-color: rgb(240, 233, 233);
+padding: 7px;
+}
+.phonemail a{
+text-decoration: none;
+color: rgb(61, 124, 124);
+}
+.phonemail a:hover{
+color: rgb(44, 123, 168);
+}
+.phonemail span{
+margin-left: 20px;
+color: rgb(61, 124, 124);
+}
+.phonemail select{
+position: absolute;
+right: 100px;
+border: none;
+background-color: rgb(240, 233, 233);
+color: rgb(61, 124, 124);
+}
+
+.header{
+height: 100px;
+background-color: white;
+position: sticky;
+top:0;
+z-index: 1001;
+}
+.logo{
+float: left;
+}
+.nav ul{
+list-style-type: none;
+line-height: 100px;
+text-align: right;
+margin: 0;
+margin-right:10% ;
+}
+.nav > ul > li{
+clear: both;
+display: inline-block;
+}
+li a{
+text-decoration: none;
+text-align: center;
+padding: 10px;
+}
+li > ul{
+clear: left;
+display: none;
+width: 100px;
+text-align:center;
+}
+li:hover > ul{
+clear: both;
+background-color: #DDD;
+display: block;
+position: absolute;
+top: 70px;
+}
+.img_front{
+background-image: url("../images/f5.jpg");
+background-attachment:scroll; 
+opacity: 0.8;
+width: 100%;
+height: 600px;
+}
+._hr1{
+    width: 100px; 
+    margin-bottom: 1px;
+    border: 0.5px solid rgb(26, 37, 37);
+}
+._hr2{
+    width: 100px; 
+    margin-top: 1px;
+    border: 0.5px solid rgb(26, 37, 37);
+}
+h1{
+clear: both;
+margin: 0;
+font-size: 70px;
+line-height: 200px;
+}
+.h_img_front{
+color: white;
+text-align: center;
+
+}
+.search{
+text-align: center;
+position: relative;
+}
+.search_in{
+clear: both;
+height: 50px;
+width: 400px;
+background-color:hsl(0, 100%, 0%); 
+border: solid rgb(0, 0, 0);
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+color:rgb(255, 255, 255);
+}
+.search_but{
+height: 57px;
+width: 110px;
+margin: 0;
+background-color: rgb(44, 25, 25);
+color: white;
+border:solid rgb(44, 25, 25);
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+position: absolute;
+}
+.present{
+height: 600px;
+background-image: url("../images/pattern.jpg");
+opacity: 0.7;
+color: rgb(61, 124, 124);
+}
+.present h4{
+    color:rgb(87, 42, 42);
+    font-size: 30px;
+}
+.sub_prasent{
+margin: 50px;
+}
+._prasent{
+position: relative;
+width: 270px;
+padding: 10px;
+margin: 10px;
+float: left;
+border: 1px solid rgb(170, 106, 106);
+}
+.sub_prasent span{
+background-color: rgb(102, 67, 67);
+ color: white;
+ padding: 5px;
+ position: absolute;
+ left:10px;
+ top:20px;
+}
+.sub_prasent li{
+color: rgb(0, 14, 14);
+display: inline-block;
+border-left: 1px solid rgb(87, 42, 42);
+}
+.vila{
+text-align: center;
+color: rgb(61, 124, 124);
+width: 100%;
+height: 700px;
+}
+.vila button{
+padding: 10px;
+border: 2px solid rgb(68, 136, 136);
+color: rgb(61, 124, 124);
+border-radius:5px; 
+}
+.sub_vila{
+margin-left: 7%;
+margin-right: 7%;
+}
+.vila_list{
+width: 355px;
+margin: 10px;
+margin-bottom: 20px;
+margin-top: 30px;
+float: left;
+height: 150px;
+text-align: left;
+}
+.vila_list img{
+width: 99px;
+height: 99px;
+padding-right: 4px;
+float: left;
+border-radius:10px; 
+}
+.cont_vila_list strong{
+clear: both;
+}
+.what_do{
+width: 100%;
+height: 700px;
+color: rgb(38, 61, 61);
+text-align: center;
+background-image: url("../images/pattern.jpg");
+opacity: 0.8;
+}
+.sub_what_do{ 
+margin-left: 7%;
+margin-right: 7%;
+padding: 50px;
+
+}
+.what_do_list{
+width: 280px;
+padding: 15px;
+margin-top: 40px; 
+margin: 15px;
+float: left;
+}
+.what_do img{
+border-radius:100%; 
+}
+.what_do_list button{
+padding: 10px;
+border: 2px solid rgb(61, 124, 124);
+color: rgb(61, 124, 124);
+border-radius:5px; 
+}
+.information{
+height: 350px;
+background-color: rgb(245, 245, 245);
+padding: 2px;
+}
+.desc{
+width: 22%;
+height: 300px;
+float: left;
+padding: 15px;
+color: rgb(61, 124, 124);
+text-align: center;
+}
+.contact_info{
+width: 22%;
+height: 300px;
+float: left;
+padding: 15px;
+color: rgb(61, 124, 124);
+}
+.help_link{
+color: rgb(61, 124, 124);
+width: 22%;
+height: 300px;
+padding: 15px;
+float: left;
+}
+.property_list{
+padding: 15px;
+width: 22%;
+height: 300px;
+float: left;
+color: rgb(61, 124, 124);
+}
+.sub_property img{
+clear: both;
+float: left;
+}
+footer{
+height: 80px;
+background-color: #DDD;
+text-align: center;
+line-height: 50px;
+}
+.serch1{
+position: absolute;
+top: 15px;
+}

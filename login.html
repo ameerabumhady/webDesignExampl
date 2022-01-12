@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <style>
+        body{
+            background-color: #DDD;
+        }
+        .login_form{
+           /* text-align: center; */
+            margin-top: 15%;  
+        }
+        form{
+            border: 1px solid rgb(56, 135, 238);
+            border-radius: 5px;
+            width: 320px;
+            /* height: 30%; */
+            margin: auto;
+           /* margin-right: auto;*/
+            padding: 10px;
+        }
+    input{
+        width: 290px;
+        height: 40px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: 1px solid rgb(56, 135, 238);
+        background-color: rgb(242, 247, 247);
+    }
+    label{
+        padding-left: 5px;
+    }
+    .subm{
+        background-color: blueviolet;
+        color: white;
+    }
+    span{
+        text-align: center;
+        position: absolute;
+        top:17%;
+        left: 42%;
+        font-size: 40px;
+        padding: 10px 30px;
+        border: 1px solid rgb(56, 135, 238);
+        border-radius:10px; 
+        background-color: azure;
+    }
+    .error {
+        background-color: rgb(233, 119, 119);
+        border: 1px solid red;
+        color: rgb(19, 15, 15);
+        display: block;
+        position: absolute;
+        top: 70%;
+        left: 30%;
+      }
+    .back_style {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 15px 20px;
+    }
+    </style>
+</head>
+<body>
+    <div id="login_form" class="login_form">
+            <span class="titel">LOG IN </span>
+        <form action="">
+            <label >Email</label>
+            <br>
+            <input id="username" type="text" placeholder="Username" >
+            <br>
+            <label >Password</label>
+            <br>
+            <input id="password" type="password" placeholder="Password">
+            <br>
+            <input class="subm" type="button" value="Login" onclick="doCheck()">
+
+            <a class="back_style" href="Home.html">Back</a>
+        </form>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign up</title>
+    <style>
+        .reg_form{
+            margin-left:auto;
+            margin-right: auto; 
+        }
+    fieldset{
+        width: 400px;
+        margin: auto;
+        background-color: rgb(229, 240, 240);
+    }
+    legend{
+        border: 1px solid rgb(109, 130, 201);
+        border-radius: 5px;
+        padding: 5px;
+    }
+    input{
+        padding-left: 10px;
+        width: 300px;
+        height: 35px;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: 1px solid rgb(56, 135, 238);
+        background-color: rgb(242, 247, 247);
+        margin-bottom: 20px;
+    }
+    hr{
+        border: 1px solid #DDD;
+    }
+    figcaption{
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 25px; 
+    }
+    input , label {
+        margin-left: 10px;
+    }
+    .sbmit{
+        text-align: center;
+        margin-left: 100px;
+        width: 150px;
+        height: 50px;
+    }
+    .back_style {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 15px 20px;
+    }
+    </style>
+    <script>
+        function tit(obj){
+            obj.innerHTML = "thank you";
+        }
+    </script>
+</head>
+<body>
+    <div class="reg_form">
+            <form action="">
+                <fieldset >
+                <figcaption>Personal</figcaption>
+                <hr>
+                <label >First Name</label>
+                <br>
+                <input type="text" placeholder="First Name">
+                <br>
+                <label >Last Name</label>
+                <br>
+                <input type="text" placeholder="Last Name">
+                <br>
+                <label >Date of Birth</label>
+                <br>
+                <input type="text" placeholder="14 ReMal St.">
+                <br>
+                <figcaption>Acount</figcaption>
+                <hr>
+                <label >Email</label>
+                <br>
+                <input type="email" placeholder="Email">
+                <br>
+                <label >Password</label>
+                <br>
+                <input type="password" placeholder="Password">
+                <br>
+                <label >Confirm Password</label>
+                <br>
+                <input type="password" placeholder="Confirm Password">
+                <br>
+                <figcaption>Contact</figcaption>
+                <hr>
+                <label >Address </label>
+                <br>
+                <input type="text" placeholder="14 ReMal St.">
+                <br>
+                <label >City </label>
+                <br>
+                <input type="text" placeholder="14 ReMal St.">
+                <br>
+                <label >Phone Nmber</label>
+                <br>
+                <input type="tel" placeholder="Phone Nmber">
+                <br>
+                <label >Zip </label>
+                <br>
+                <input type="text" placeholder="12345">
+                <input class="sbmit" type="submit" value="Register">
+
+                <a class="back_style" href="Home.html">Back</a>
+            </fieldset>
+            </form>
+        
+        <!-- <fieldset disabled="disabled">
+            <figcaption>Personal</figcaption>
+            <label >Upload the CV </label>
+            <br>
+            <input type="file" placeholder="Chooce the file">
+            <br>
+            <label ></label>
+            <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <br>
+        </fieldset> -->
+    </div>
+</body>
+</html>
